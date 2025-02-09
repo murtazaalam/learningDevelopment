@@ -1,0 +1,9 @@
+h2{
+    color: green;
+}
+h3{
+    border-bottom: 2px solid blue;
+    border-top: 2px solid red;
+    border-left: 4px dashed green;
+    border-right: 4px dotted tomato;
+}

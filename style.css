@@ -1,3 +1,6 @@
+* {
+    
+}
 h2{
     color: green;
 }
@@ -6,4 +9,32 @@ h3{
     border-top: 2px solid red;
     border-left: 4px dashed green;
     border-right: 4px dotted tomato;
+}
+caption{
+    font-size: 20px; 
+    font-weight: bold; 
+    margin-bottom: 8px;
+}
+.heading{
+    color: blue;
+    font-size: 40px;
+}
+.heading2{
+    color: black;
+}
+/* THis is for top heading paragraph */
+.order{
+    color: black;
+    font-size: 20px;
+}
+.para1{
+    background-color: rgba(0, 8, 255, 0.542);
+}
+.divclass{
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./images/BG_Male.svg);
 }

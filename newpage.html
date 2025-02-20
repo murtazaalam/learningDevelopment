@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="./style.css" rel="stylesheet" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <style>
             h1{
                 color: red;
@@ -10,8 +11,33 @@
                 color: blue;
                 border: 2px solid red;
             }
-            
+            table{
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th,td{
+                padding-left: 12px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                border: 2px solid black;
+            }
+            tr:nth-child(even){
+                background-color: rgba(0, 0, 0, 0.5)
+            }
+            /* .heading{
+                color: blue;
+            }
+            .heading2{
+                color: black;
+            } */
+            #heading3{
+                color: purple;
+            }
+            .order{
+                color: red;
+            }
         </style>
+        <link href="./style.css" rel="stylesheet" />
     </head>
     <body>
 
@@ -19,5 +45,124 @@
         <h2>This is for external css</h2>
         <p>this is p tag</p>
         <h3>this is for border understanding</h3>
+        <br/><br/><br/><br/><br/><br/>
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Samir</td>
+                <td>Ansari</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Sartaz</td>
+                <td>Ansari</td>
+                <td>18</td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Samir</td>
+                    <td>Ansari</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Sartaz</td>
+                    <td>Ansari</td>
+                    <td>18</td>
+                </tr>
+            </tbody>
+        </table>
+        <br/><br/>
+        <table>
+            <caption>
+                Use Of colspan
+            </caption>
+            <thead>
+                <tr>
+                    <th colspan="2">Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Samir</td>
+                    <td>Ansari</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Sartaz</td>
+                    <td>Ansari</td>
+                    <td>18</td>
+                </tr>
+            </tbody>
+        </table>
+        <br/><br/>
+        <table>
+            <caption>
+                Use Of rowspan
+            </caption>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Samir</td>
+                    <td>Ansari</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Ansari</td>
+                    <td>18</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- Using css by class -->
+        <h1 class="heading">New Page hg erwytgeuir</h1>
+        <h2 class="heading">New Page hg erwytgeuir</h2>
+        <h2 class="heading2">New Page hg erwytgeuir dfghrth yjyj</h2>
+
+        <!-- Using css by id -->
+        <h1 id="heading3">New Page hg erwytgeuir</h1>
+        <h2 id="heading3">New Page hg erwytgeuir</h2>
+        <h2 class="heading" id="heading3" style="">
+            New Page hg erwytgeuir dfghrth yjyj
+        </h2>
+        <!-- <section>
+            <h1 id="heading3">New Page hg erwytgeuir</h1>
+            <h2 id="heading3">New Page hg erwytgeuir</h2>
+            <h2 class="heading" id="heading3" style="">
+                New Page hg erwytgeuir dfghrth yjyj
+            </h2>
+        </section> -->
+        <br/><br/><br/>
+        <h1 class="heading heading2">New Page hg erwytgeuir dfhrthrt &#8719; &#8721; &sum;</h1>
+        <p style="font-size: 40px;">&#128512; &#128508;</p>
+
+        <p class="order" style="color: orange;">Order of css</p>
+        <p class="para1">THis is a paragra</p>
+        <div class="divclass">
+
+        </div>
+        <br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/>
     </body>
 </html>

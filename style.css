@@ -123,3 +123,30 @@ caption{
     padding: 10px;
     border: 10px solid black;
 }
+.nav{
+    height: 46px;
+    background-color: #333;
+    list-style-type: none;
+}
+.nav li{
+    padding: 12px;
+    display: inline-block;
+}
+.nav li:first-child{
+    background-color: #04AA6D;
+}
+.nav li:last-child{
+    float: right;
+}
+.nav li:hover{
+    background-color: #000;
+}
+.nav li:first-child:hover{
+    background-color: #04AA6D;
+}
+.nav li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}

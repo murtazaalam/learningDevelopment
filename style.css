@@ -1,5 +1,5 @@
 * {
-    
+    margin: 0;
 }
 h2{
     color: green;
@@ -147,6 +147,30 @@ caption{
 .nav li a{
     color: #fff;
     font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: red;
+    padding: 12px 10% 12px 10%;
+    justify-content: space-between;
+}
+header i{
+    color: #fff;
+}
+header ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+}
+header ul li{
+    margin-left: 24px;
+}
+header a{
+    color: #fff;
+    font-size: 1.4rem;
     font-weight: bold;
     text-decoration: none;
 }

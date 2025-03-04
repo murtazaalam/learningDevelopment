@@ -174,3 +174,29 @@ header a{
     font-weight: bold;
     text-decoration: none;
 }
+.curve-section{
+    width: 100%;
+    height: 80px;
+    background-color: red;
+}
+.movie-card{
+    padding: 0 48px 0 48px;
+}
+.movie-box{
+    display: flex;
+    justify-content: space-between;
+}
+.movie-box .movie-inner{
+    width: 18%;
+    height: 358px;
+    overflow: hidden;
+    border-radius: 12px;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABTsIHqmKvuiJaunFg-3M7eRlEBPik8Un-eqTK-od9x48LzeGITagPm82bIopTRvyhIEMehQNdXN2qfj0AVpDTMhftqYStaCieJdbO-jfhSkFUVGBs9eYkpkjdzOj_UCKZi53.webp?r=06c'); */
+}
+.movie-box .movie-inner img{
+    width: 100%;
+    height: auto;
+    /* border-radius: 12px; */
+}

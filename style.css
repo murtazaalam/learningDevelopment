@@ -152,7 +152,7 @@ caption{
 }
 header{
     display: flex;
-    background-color: red;
+    background: transparent;
     padding: 12px 10% 12px 10%;
     justify-content: space-between;
 }
@@ -188,9 +188,13 @@ header a{
 }
 .movie-box .movie-inner{
     width: 18%;
-    height: 358px;
+    height: 400px;
+    padding: 16px;
     overflow: hidden;
+    cursor: pointer;
+    position: relative;
     border-radius: 12px;
+    transition: all 0.5s;
     /* background-size: cover;
     background-repeat: no-repeat;
     background-image: url('https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABTsIHqmKvuiJaunFg-3M7eRlEBPik8Un-eqTK-od9x48LzeGITagPm82bIopTRvyhIEMehQNdXN2qfj0AVpDTMhftqYStaCieJdbO-jfhSkFUVGBs9eYkpkjdzOj_UCKZi53.webp?r=06c'); */
@@ -198,5 +202,52 @@ header a{
 .movie-box .movie-inner img{
     width: 100%;
     height: auto;
-    /* border-radius: 12px; */
+    border-radius: 12px;
+}
+.movie-box .movie-inner p{
+    left: -2px;
+    bottom: 160px;
+    z-index: 1;
+    color: #000;
+    font-size: 96px;
+    position: absolute;
+    font-weight: 600;
+    text-shadow: 0 0 1.5rem rgba(0,0,0,0.5);
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+}
+.movie-box .movie-inner:hover{
+    width: 20%;
+}
+.big-header-box{
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./images/Ticket\ BG\ Female.svg");
+}
+footer{
+    margin: 12px 48px;
+}
+footer .footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .footer-middle{
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+footer .footer-middle h4{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+footer .footer-middle ul{
+    padding: 0;
+    list-style-type: none;
+}
+footer .footer-middle ul li{
+    margin-bottom: 12px;
+}
+footer .footer-middle ul li a{
+    text-decoration: none;
 }
